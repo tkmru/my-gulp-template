@@ -1,0 +1,26 @@
+{
+  "name": "your_project_name",
+  "version": "1.0.0",
+  "description": "YOUR PROJECT NAME",
+  "main": "index.js",
+  "scripts": {
+    "sass": "gulp sass",
+    "watch": "gulp watch",
+    "livereload": "gulp livereload",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/kew/gulp_template.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/kew/gulp_template#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^4.0.0",
+    "gulp-live-server": "0.0.30",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^3.1.0"
+  }
+}
